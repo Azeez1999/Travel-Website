@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Photographer Booking System</title>
+  <link rel="stylesheet" href="photogrpr.css">
+</head>
+<body>
+ <div>
+    <img src="https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&w=1000&q=80" alt="">
+ </div>
+
+<div>
+  <h1>Photographer Booking</h1>
+  <form action="photogrpr.php" method="post">
+  <label for="location">Location:</label><br>
+  <input type="text" id="location" name="location"><br>
+  <label for="photographer">Preferred Photographer:</label><br>
+  <p class="pera">Photographer's website link is given, you can visit it to know their skills.</p>
+  <select id="photographer" name="photographer">
+    <option value="photographer1">Thisara Rathnaweera Photography
+https://g.co/kgs/9rkW7j</option>
+    <option value="photographer2">Beautiful Sri Lanka Photography Tours
+https://g.co/kgs/cduwQH</option>
+  </select><br><br>
+  <label for="date">Date:</label><br>
+  <input type="date" id="date" name="date" onchange="checkAvailability()"><br>
+  <label for="time">Time:</label><br>
+  <input type="time" id="time" name="time" onchange="checkAvailability()"><br>
+  <label for="duration">Duration:</label><br>
+  <input type="number" id="duration" name="duration"><br>
+  <div id="availability-message"></div>
+  <input type="submit" value="Submit" id="submit-button">
+</form> 
+</div>
+</body>
+</html>

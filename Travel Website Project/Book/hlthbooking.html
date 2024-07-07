@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Booking</title>
+  <link rel="stylesheet" href="hlthbooking.css">
+</head>
+<body>
+  <div>
+    <img src="https://images.jdmagicbox.com/comp/def_content/hotel-reservations/hotel-6-hotels-6-mbjrv-hotel-reservations-3-x4zz9.jpg?clr=#442244" alt="travelling">
+  </div>
+  <form action="hotel.php" method="post">
+    <div id="la">
+      <label for="hotel">Select a hotel:</label><br>
+      <select id="hotel" name="hotel">
+        <option value="hotel1">NorthGate jaffna</option>
+        <option value="hotel2">Nallur Holidays Inn</option>
+        <option value="hotel3">Tilko City </option>
+        <option value="hotel4">EKHO Lake House</option>
+        <option value="hotel5">Cinnamon Grand Colombo</option>
+        <option value="hotel6">The Kingsbury </option>
+        <option value="hotel7">Club Palm Bay</option>
+        <option value="hotel8">Gall Face Hotel</option>
+        <option value="hotel9">Fairway Colombo </option>
+        <option value="hotel10">Galadari Hotel</option>
+        <option value="hotel11">Ramada Colombo</option>
+        <option value="hotel12">Green Palace </option>
+        <option value="hotel3">Hotel East Lagon</option>
+        <option value="hotel4">Riviera Resort</option>
+        <option value="hotel5">Pharo Lake </option>
+      </select><br>
+    </div>
+    <div id="la">
+      <label for="roomType">Select a room type:</label><br>
+      <select id="roomType" name="roomType">
+        <option value="standard">Standard</option>
+        <option value="deluxe">Deluxe</option>
+        <option value="suite">Suite</option>
+      </select><br>
+    </div>
+   <div id="la">
+    <label for="checkin">Check-in date:</label><br>
+    <input type="date" id="checkin" name="checkin"><br>
+   </div>
+    <div id="la">
+      <label for="checkout">Check-out date:</label><br>
+      <input type="date" id="checkout" name="checkout"><br>
+    </div>
+    <div id="la"> 
+      <input type="submit" value="Book" id="butt">
+    </div>
+    
+  </form>
+  
+</body>
+</html>
+

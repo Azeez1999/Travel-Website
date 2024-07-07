@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+    background-color: #144272;
+    color: white;
+    font-weight: 500;
+    align-items: center;
+}
+
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+main{
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+    height:65vh;
+}
+main div{
+    width: 30%;
+    padding-top: 30px;
+
+}
+
+main div h2{
+   padding-bottom: 30px;
+}
+
+#services ul li{
+    list-style: none;
+}
+
+#about{
+    width: 40%;
+
+}
+
+#services{
+    width: 40%;
+
+}
+
+#contact{
+    width: 40%;
+}
+
+footer{
+    background-color: #0A2647;
+    color: white;
+    font-weight: 500;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

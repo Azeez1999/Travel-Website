@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Transportation Booking System</title>
+  <link rel="stylesheet" href="transport.css">
+</head>
+<body>
+
+ <div>
+    <img src="https://img.freepik.com/free-vector/man-tracking-taxi-driver-cab-tablet-map-guy-using-device-car-location-with-gps-system-app-male-checking-navigation-smartphone-booking-taxi-cartography-display-flat-illustration_74855-20647.jpg?w=2000" alt="stransport">
+ </div>
+
+ <div>
+  <h1>Transportation Booking</h1>
+  
+  <form action="transport.php" method="post">
+    <label for="transportation-type">Transportation Type:</label><br>
+    <select id="transportation-type" id="transportation-type" name="transportation-type">
+      <option value="car">car</option>
+      <option value="van">van</option>
+      <option value="bus">bus</option>
+    </select><br><br>
+    
+    <label for="destination">Destination:</label><br>
+    <input type="text" id="destination" name="destination"><br><br>
+    
+    <label for="departure-date">Departure Date:</label><br>
+    <input type="date" id="departure-date" name="departure-date"><br><br>
+    
+    <label for="return-date">Return Date:</label><br>
+    <input type="date" id="return-date" name="return-date"> <br><br>
+    
+    <label for="passenger-count">Number of Passengers:</label><br>
+    <input type="number" id="passenger-count" name="passenger-count" min="1"><br><br>
+    
+    <button type="submit" id="butt">submit</button>
+  </form> 
+ </div>
+</body>
+</html>
